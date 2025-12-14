@@ -1,0 +1,80 @@
+<svg width="350" height="200" viewBox="0 0 350 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="350" height="200" fill="#f75959ff" rx="12"/>
+  <rect x="5" y="5" width="340" height="190" rx="10" fill="none" stroke="#ffd600" stroke-width="3"/>
+  
+  <!-- Python logo - more angular/powerful style (left side) -->
+  <g transform="translate(75, 100)">
+    <!-- Blue section - more geometric -->
+    <path d="M-35,-45 L35,-45 L35,-10 L10,-10 L10,0 L-35,0 Z" fill="#1565c0" stroke="#0d47a1" stroke-width="3"/>
+    <circle cx="-20" cy="-30" r="6" fill="#ffd600"/>
+    
+    <!-- Yellow section - more geometric -->
+    <path d="M-35,45 L35,45 L35,10 L-10,10 L-10,0 L-35,0 Z" fill="#ffd600" stroke="#f57f00" stroke-width="3"/>
+    <circle cx="20" cy="30" r="6" fill="#1565c0"/>
+    
+    <!-- Power lines/energy -->
+    <line x1="-45" y1="-20" x2="-38" y2="-20" stroke="#ffd600" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <line x1="-45" y1="0" x2="-38" y2="0" stroke="#ffd600" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <line x1="-45" y1="20" x2="-38" y2="20" stroke="#ffd600" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  
+  <!-- Terminal/code window with more complex code (center-right) -->
+  <g transform="translate(220, 100)">
+    <!-- Window frame - darker, more professional -->
+    <rect x="-80" y="-60" width="160" height="120" rx="8" fill="#263238" stroke="#ffd600" stroke-width="3"/>
+    
+    <!-- Title bar -->
+    <rect x="-80" y="-60" width="160" height="22" fill="#37474f" rx="8"/>
+    <circle cx="-65" cy="-49" r="3.5" fill="#ff5252"/>
+    <circle cx="-54" cy="-49" r="3.5" fill="#ffab00"/>
+    <circle cx="-43" cy="-49" r="3.5" fill="#69f0ae"/>
+    <text x="-25" y="-45" font-family="monospace" font-size="9" fill="#ffd600">intermediate.py</text>
+    
+    <!-- Code lines - more complex patterns -->
+    <rect x="-65" y="-25" width="45" height="4" rx="2" fill="#1565c0"/>
+    <rect x="-15" y="-25" width="60" height="4" rx="2" fill="#ffd600"/>
+    
+    <rect x="-65" y="-12" width="30" height="4" rx="2" fill="#ab47bc"/>
+    <rect x="-30" y="-12" width="85" height="4" rx="2" fill="#64b5f6"/>
+    
+    <rect x="-65" y="1" width="100" height="4" rx="2" fill="#ffd600"/>
+    
+    <rect x="-65" y="14" width="55" height="4" rx="2" fill="#1565c0"/>
+    <rect x="-5" y="14" width="50" height="4" rx="2" fill="#ab47bc"/>
+    
+    <rect x="-65" y="27" width="75" height="4" rx="2" fill="#64b5f6"/>
+    
+    <rect x="-65" y="40" width="40" height="4" rx="2" fill="#ffd600"/>
+    <rect x="-20" y="40" width="65" height="4" rx="2" fill="#1565c0"/>
+  </g>
+  
+  <!-- Gear showing complexity -->
+  <g transform="translate(315, 50)">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="7" fill="#1565c0"/>
+    <circle cx="0" cy="-15" r="3" fill="#1565c0"/>
+    <circle cx="11" cy="-11" r="3" fill="#1565c0"/>
+    <circle cx="15" cy="0" r="3" fill="#1565c0"/>
+    <circle cx="11" cy="11" r="3" fill="#1565c0"/>
+    <circle cx="0" cy="15" r="3" fill="#1565c0"/>
+    <circle cx="-11" cy="11" r="3" fill="#1565c0"/>
+    <circle cx="-15" cy="0" r="3" fill="#1565c0"/>
+    <circle cx="-11" cy="-11" r="3" fill="#1565c0"/>
+  </g>
+  
+  <!-- Connecting arrow -->
+  <defs>
+    <marker id="advPythonArrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#ffd600"/>
+    </marker>
+  </defs>
+  <path d="M120,100 L135,100" stroke="#ffd600" stroke-width="3" fill="none" marker-end="url(#advPythonArrow)"/>
+  
+  <!-- Circuit-like lines in background -->
+  <g opacity="0.2">
+    <line x1="30" y1="160" x2="80" y2="160" stroke="#ffd600" stroke-width="2"/>
+    <line x1="80" y1="160" x2="80" y2="140" stroke="#ffd600" stroke-width="2"/>
+    <circle cx="80" cy="140" r="2" fill="#ffd600"/>
+  </g>
+</svg>
