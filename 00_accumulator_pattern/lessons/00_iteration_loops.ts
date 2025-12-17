@@ -248,7 +248,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "You now have two types of loops in your programming toolkit:\n- **Range loops** (`for i in range(n):`) repeat actions a specific number of times\n- **Iteration loops** (`for char in string:`) examine each character in a string\n\nCreate a simple example showing one of each type of loop and explain when you would use each one. Remember to use the phrase 'as seen in the example above'.",
+            'You now have two types of loops in your programming toolkit:\n- **Range loops** (`for i in range(n):`) repeat actions a specific number of times\n- **Iteration loops** (`for char in string:`) examine each character in a string\n\nCreate a simple example showing one of each type of loop and explain when you would use each one. Remember to use the phrase "as seen in the example".',
         },
       ],
       topic: "When to Use Range vs Iteration Loops",

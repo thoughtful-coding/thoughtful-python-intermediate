@@ -291,7 +291,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Functions with loops inside them are incredibly powerful. They turn repetitive patterns into reusable, customizable tools.\n\nCreate a function that uses loops and takes at least two parameters. Explain how the parameters control the loop behavior. Remember to use the phrase 'as seen in the example above'.",
+            'Functions with loops inside them are incredibly powerful. They turn repetitive patterns into reusable, customizable tools.\n\nCreate a function that uses loops and takes at least two parameters. Explain how the parameters control the loop behavior. Remember to use the phrase "as seen in the example".',
         },
       ],
       topic: "Functions That Use Loops",

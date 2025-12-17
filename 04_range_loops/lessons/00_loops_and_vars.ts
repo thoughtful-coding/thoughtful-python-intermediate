@@ -285,7 +285,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Loop variables transform static repetition into dynamic change. By using `i` in calculations, you can create patterns that grow, shrink, rotate, or evolve.\n\nCreate an example that uses the loop variable to create a changing pattern. Explain how the variable affects each iteration. Remember to use the phrase 'as seen in the example above'.",
+            'Loop variables transform static repetition into dynamic change. By using `i` in calculations, you can create patterns that grow, shrink, rotate, or evolve.\n\nCreate an example that uses the loop variable to create a changing pattern. Explain how the variable affects each iteration. Remember to use the phrase "as seen in the example".',
         },
       ],
       topic: "Using Loop Variables for Dynamic Patterns",

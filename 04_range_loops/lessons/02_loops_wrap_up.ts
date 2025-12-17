@@ -317,7 +317,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "You've mastered loops and seen how they connect to everything else in programming. Reflect on your journey from drawing simple triangles to creating complex algorithmic art.\n\nCreate one final example that showcases your understanding of loops, and explain how loops work together with variables, functions, and libraries. Remember to use the phrase 'as seen in the example above'.",
+            'You\'ve mastered loops and seen how they connect to everything else in programming. Reflect on your journey from drawing simple triangles to creating complex algorithmic art.\n\nCreate one final example that showcases your understanding of loops, and explain how loops work together with variables, functions, and libraries. Remember to use the phrase "as seen in the example".',
         },
       ],
       topic: "Loops as the Foundation of Programming",
