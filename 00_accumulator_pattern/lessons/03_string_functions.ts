@@ -43,7 +43,7 @@ const lessonData: Lesson = {
         },
         {
           kind: "image",
-          src: "data/06_accumulators/images/string_replace_method.png",
+          src: "images/string_replace_method.png",
           alt: "Diagram of the .replace() method",
         },
       ],

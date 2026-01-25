@@ -4,10 +4,11 @@ An intermediate Python course designed for the [Thoughtful Coding](https://thoug
 
 ## About
 
-This course builds on the [Thoguhtful Python Intro]() course. It teaches
-students the beginnings of data-processing via the accumulator pattern, lists,
-and the difference between procedures and functions. Students learn by working
-through structured exercises with immediate feedback, no installation required.
+This course builds on the [Thoguhtful Python Intro](https://github.com/thoughtful-coding/thoughtful-python-intro)
+course. It teaches students the beginnings of data-processing via the
+accumulator pattern, lists, and the difference between procedures and functions.
+Students learn by working through structured exercises with immediate feedback,
+no installation required.
 
 ## Course Structure
 
