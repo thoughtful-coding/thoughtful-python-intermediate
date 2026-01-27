@@ -8,7 +8,7 @@ import type {
 } from "../../../../src/types/data";
 
 const lessonData: Lesson = {
-  guid: "test-visual-turtle-lesson" as LessonId,
+  guid: "8b18edbb-d2ed-435c-8fed-2246155c100f" as LessonId,
   title: "Test: Visual Turtle Testing",
   description: "Test lesson for visual turtle graphics testing feature",
   sections: [
