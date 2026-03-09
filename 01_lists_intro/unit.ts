@@ -1,4 +1,4 @@
-import { UnitId, UnitManifest } from "../../../types/data";
+import { UnitId, UnitManifest } from "../../../src/types/data";
 
 const unitManifest: UnitManifest = {
   id: "python_lists_intro" as UnitId,
@@ -7,6 +7,7 @@ const unitManifest: UnitManifest = {
   description:
     "This worksheet is intended to show you how lists work in Python and how they compare with strings.",
   lessons: [
+    "lessons/00_refactor_example",
     "lessons/lesson_1",
     "lessons/lesson_2",
     "lessons/lesson_3",
